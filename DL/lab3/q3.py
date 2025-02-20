@@ -41,9 +41,9 @@ for epochs in range(100):
         model.update()
 
     model.reset_grad()
-    print(f"The parameters are w= {model.w}, b = {model.b}, loss = {loss.item()}")
+    # print(f"The parameters are w= {model.w}, b = {model.b}, loss = {loss.item()}")
 
 print(f"Final w= {model.w}, b = {model.b}")
 
-plt.plot(loss_list)
-plt.show()
+# plt.plot(loss_list)
+# plt.show()
